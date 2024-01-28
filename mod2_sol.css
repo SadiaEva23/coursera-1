@@ -17,15 +17,6 @@ body {
       padding: 20px;
     }
 
- /*   .box {
-      flex: 1 1 30%;
-      max-width: 30%;
-      background-color: #f0f0f0;
-      border-color: black;
-      padding: 20px;
-      margin: 10px;
-      text-align: center;
-    }*/
 	    .box {
 	    	flex: 1 1 30%;
 	      max-width: 30%;
@@ -39,33 +30,45 @@ body {
 
 
 	    		#jam {
-	    			background-color: pink;
+	    			background-color: blueviolet;
 /*	    			max-width: 40%;*/
 	    			border: 3px solid;
+	    			margin-top: 0;
+	    			border-top: none;
+	    			border-right: 0;
 	    			position: absolute;
-	    			left: 69%; 
+	    			right: 0; 
 	    			width: 30%;
-	    			bottom: calc(100% - 49.4px);
-
+	    			top:0;
+/*	    			bottom: calc(100% - 49.4px);*/
 	    		}
 	    		#bread{
 	    			background-color: red;
 	    			max-width: 30%;
 	    			border: 3px solid;
+	    			margin-top: 0;
+	    			border-top: none;
+	    			border-right: 0;
 	    			position: absolute;
-	    			left: 70%; 
-	    			width: 29%;
-	    			bottom: calc(100% - 49.4px);
+	    			right: 0; 
+	    			width: 30%;
+	    			top:0;
 	    		}
 
 	    		#butter{
 	    			background-color: cyan;
 	    			max-width: 30%;
 	    			border: 3px solid;
+	    			margin-top: 0;
+	    			border-top: none;
+	    			border-right: 0;
 	    			position: absolute;
-	    			left: 70%; 
-	    			width: 29.5%;
-	    			bottom: calc(100% - 49.4px);
+	    			right: 0; 
+	    			width: 30%;
+	    			top:0;
+	    			@media (min-width: 768px) and (max-width: 991px){
+	    				width: 15%
+	    			}
 	    		}
 	    	}
 
